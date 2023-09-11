@@ -1,0 +1,81 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+header:hover{
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #ffcc00;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul :hover{
+    color: #ffcc00;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add more specific styles as needed for your restaurant website */
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* box{
+    width:10rem;
+    height:10rem;
+    background-color: #333;
+    color:#ffcc00;
+    font-size: small;
+    margin:1rem;
+} */
